@@ -7,3 +7,6 @@ alias vimc="nvim ~/.config/nvim/init.vim"
 alias shs="source ~/.zshrc"
 alias shc="vim ~/.zshrc"
 
+# joshuto
+alias wi="joshuto"
+
