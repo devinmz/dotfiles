@@ -13,4 +13,5 @@ alias wi="joshuto"
 # git
 alias gs="git status"
 alias ga="git add"
-alias gc="git commit -m"
+alias gci="git commit -m"
+alias gco="git checkout"
