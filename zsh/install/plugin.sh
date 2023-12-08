@@ -14,3 +14,8 @@ echo "zsh-autosuggestions installing..."
 git clone --depth=1 https://github.com/zsh-users/zsh-autosuggestions "$prev_path/_/plugins/zsh-autosuggestions"
 
 echo "source $prev_path/_/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
+
+## highlight
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$prev_path/_/plugins/zsh-syntax-highlighting"
+
+echo "source $prev_path/_/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
