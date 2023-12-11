@@ -1,3 +1,4 @@
-aa=$(cd $(dirname $0); pwd)
+index=$(cd $(dirname $0); pwd)
 
-source "$aa/alias.zsh"
+source "$index/alias.zsh"
+source "$index/alias_y.zsh"
