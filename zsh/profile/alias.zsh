@@ -27,3 +27,7 @@ function gbd() {
     git checkout master
     git branch -D $branch_name
 }
+
+# colors
+alias ls="ls --color=auto"
+alias grep="grep --color=auto"

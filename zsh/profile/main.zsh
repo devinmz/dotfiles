@@ -4,4 +4,4 @@ source "$index/alias.zsh"
 source "$index/alias_y.zsh"
 
 bindkey '^i' autosuggest-accept
-bindkey '^\r' autosuggest-execute
+# bindkey '^\r' autosuggest-execute
