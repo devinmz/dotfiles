@@ -22,10 +22,21 @@ function gcm() {
     git checkout -b $1 origin/master
 }
 alias gb="git branch"
+alias gu="git push"
+alias gpr="git pull --rebase"
+
 function gbd() {
     branch_name=$(git symbolic-ref --short -q HEAD)
     git checkout master
     git branch -D $branch_name
+}
+
+function gr() {
+    git push origin HEAD:$1
+}
+
+function grd() {
+    git push origin :$1
 }
 
 # colors
